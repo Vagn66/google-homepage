@@ -1,0 +1,128 @@
+/*CSS style*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.topnav {
+    float: right;
+}
+.picbut {
+    position: relative;
+    bottom: 8px;
+    opacity: 0.5;
+}
+.picbut:hover {
+    opacity: 1;
+}
+
+li.top {
+    display: inline;
+    float: left;
+    margin: 5px;
+}
+#signin {
+    border: 1px solid #3366ff;
+    background-color: #3366ff;
+    color: white;
+    padding: 7px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+#signin:hover {
+    text-decoration: none;
+}
+
+ul.topnav a {
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+}
+ul.topnav a:hover {
+    text-decoration: underline;
+    color: #757575;
+}
+
+div.logo {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+
+input {
+    width: 30%;
+    margin-bottom: 20px;
+    margin-top: 27px;
+}
+.searchfield {
+    height: 27px;
+    border: 1.5px solid #f2f2f2;
+}
+.searchfield:hover {
+    box-shadow: 0px 1px 4px #f0f5f5;
+}
+.search {
+    min-width: 120px;
+    max-width: 120px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    padding: 8px 8px;
+    color: #757575;
+    border: 1px solid white;
+    border-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 2.5px;
+}
+.search:hover {
+    color: black;
+    border: 1px solid #e4e4e4;
+}
+
+div.info {
+    position: relative;
+    top: 115px;
+    text-align: center;
+}
+.foot1 {
+    background-color: #f2f2f2;;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 27px;
+    padding-top: 0px;
+    margin: 0;
+    color: rgba(0,0,0,.54);
+}
+.foot1 p {
+    padding: 0;
+}
+.foot2 {
+    border-top: 1px solid #e4e4e4;
+    position: relative;
+    left: 0;
+    padding: 10px 27px 10px 0;
+}
+.foot2 li {
+    display: inline;
+    float: right;
+    padding-right: 27px;
+}
+li.left {
+    float: left;
+}
+.foot2 a {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+.foot2 a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fafafa;
+    opacity: 1;
+    height: 100px;
+    border: 1px solid #e4e4e4;
+    overflow: auto;
+}
+.logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    float: left;
+}
+.input {
+    float: left;
+    margin-top: 25px;
+    height: 27px;
+    border: 1.5px solid #e4e4e4;
+    width: 27%;
+}
+.input:hover {
+    box-shadow: 0px 2px 2px black;
+}
+.navright {float: right;
+    display: inline;
+    margin-top: 15px;
+}
+.top {
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
+.picbut {
+    position: relative;
+    top: 10px;
+    opacity: 0.5;
+}
+.picbut:hover {
+    opacity: 1;
+}
+.navsearch {
+    float: left;
+    position: relative;
+    top: 65px;
+    right: 450px;
+    width: 40%;
+}
+.top2 {
+    display: inline;
+    margin-right: 27px;
+    color: rgba(0,0,0,.54);
+}
+.top2 a{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+.top2 a:hover {color: black;}
+
+#signin {
+    border: 1px solid #3366ff;
+    background-color: #3366ff;
+    color: white;
+    padding: 7px;
+    font-weight: bolder;
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.main {
+    margin-left: 160px;
+}
+.main p {
+    color: rgba(0,0,0,.54);
+    width: 500px;
+}
+.main h2 {
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+h2 a {
+    text-decoration: none;
+}
+p.links {
+    margin-top: 0;
+    padding-top: 0;
+    color: #006621;
+}
+footer {
+        background-color: #fafafa;
+    opacity: 1;
+    height: 80px;
+    border: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.54);
+}
+.foot1 {
+    border-bottom: 1px solid #e4e4e4;
+    height: 30px;
+}
+.foot1 p {
+    margin-left: 160px;
+    padding-right: 0px;
+}
+.foot2 {
+     margin-left: 120px;
+}
+.foot2 li {
+    display: inline;
+}
+.foot2 li a{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+    margin-right: 25px;
+}
+.foot2 li a:hover {color:black;}
+
+p.normal {
+    color: black;
+}
+.main li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.main li a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.bottomimg {
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.bottomimg li {
+    display: inline;
+}
+.bottomimg li a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+#nextbut a {
+    margin-left: 70px;
+}
